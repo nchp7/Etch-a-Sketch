@@ -1,0 +1,14 @@
+#grid-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2px; 
+    border: 1px solid black;
+}
+
+.grid-square {
+    flex: 1;
+    
+    background-color: lightblue;
+    border: 1px solid white; 
+}
